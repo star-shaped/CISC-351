@@ -9,4 +9,9 @@ Winter 2023 semester.
 
 This assignment outlines a rough data science
 regression pipeline for predicting house sale
-prices in New York City, from 2020 until 2022.
+prices in New York City, from 2020 until 2022,
+utilizing data cleaning, data preprocessing,
+feature engineering, feature selection, and
+the deployment of two models that provide
+fairly accurate predictions, given the outlier
+heavy nature of the dataset.
