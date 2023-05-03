@@ -1,3 +1,16 @@
------
-test
------
+-----------------------------------------------------------------------------------
+DATASET: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+-----------------------------------------------------------------------------------
+
+The project enclosed in this folder was work submitted for the completion of Assignment
+2 in CISC 351, during the Winter 2023 semester, at Queen's University. The goal of the
+assignment was to create a deep learning pipeline for the purposes of classifying
+pictures of fashion items, such as shoes or clothing, into one of 11 categories. The pipeline
+begins with some basic data exploration, and ends with us creating a basic, 
+untuned convolutional neural network (CNN), which performed quite well.
+
+The second part of the assignment involved two ways of improving the neural network. The
+first method we tried was tuning the learning rate of the ADAM optimizer, which improved performance
+significantly, while the second method involved data augmentation (creating new training data out of
+the already existing images by augmenting them slightly, for example rotating them, or inverting
+the colours), which didn't improve performance, but did improve the previous model overfitting slightly.
